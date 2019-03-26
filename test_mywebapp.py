@@ -18,7 +18,7 @@ class MyWebAppTestCase(unittest.TestCase):
 
     def testClickButtonOK(self):
         browser = self.browser
-        browser.get("file:////home/circleci/mywebapp-repo/index.html")
+        browser.get("file:////home/circleci/project/index.html")
         button = browser.find_element_by_tag_name('button')
         time.sleep(1)
         button.click()
